@@ -1,0 +1,16 @@
+/**app.wxss**/
+page,.container{
+  width: 100%;
+  height: 100%;
+}
+
+view{
+  display: flex;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}

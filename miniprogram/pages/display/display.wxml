@@ -1,0 +1,5 @@
+<view class="container">
+    <rich-text nodes="{{contents}}"></rich-text>
+    <view class="delete" hidden="{{!showDelete}}" bindtap="delete">删除</view>
+    <button class="share" open-type="share" share-mode="{{['shareAppMessage', 'shareTimeline']}}">分享</button>
+</view>

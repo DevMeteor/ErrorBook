@@ -1,0 +1,15 @@
+<view class="container">
+    <view class="user-info">
+        <open-data class="avatar" type="userAvatarUrl" />
+        <open-data class="nickname" type="userNickName" />
+    </view>
+    <view class="list">
+        <view class="item" bindtap="add">
+            <image style="width:60rpx;height:60rpx" src="/images/add.png" />
+        </view>
+        <view class="item" wx:key="_id" data-item="{{item}}" bindtap="display" wx:for="{{notes}}">
+            <image mode="aspectFill" src="{{item.cover}}" />
+            <text class="cate">{{item.type}}</text>
+        </view>
+    </view>
+</view>

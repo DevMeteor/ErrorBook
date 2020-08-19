@@ -1,0 +1,30 @@
+.delete{
+    width: 100rpx;
+    height: 100rpx;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 50rpx;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    right: 50rpx;
+    bottom: 100rpx;
+}
+
+.share{
+    display: flex;
+    min-width: unset;
+    width: 100rpx !important;
+    height: 100rpx;
+    background-color: rgba(220, 220, 220, 0.7);
+    color: rgba(160,160 ,160 , 0.7);
+    border-radius: 50rpx;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    right: 50rpx;
+    bottom: 220rpx;
+    padding:unset;
+    line-height: unset;
+    font-weight: normal !important;
+}

@@ -1,0 +1,28 @@
+<view class="container">
+    <editor class="editor" id="editor" show-img-toolbar="true" placeholder="可以开始写咯,至少要插入一张图片" bindready="editorReady"></editor>
+    <picker mode="selector"  class="type" range="{{types}}" bindchange="typeChange">
+        <text>科目：{{type}}</text>
+    </picker>
+    <view catchtouchend="prevent" class="tools">
+        <text catchtouchend="insertImg">图片</text>
+        <text class="divider">\</text>
+        <text catchtouchend="bold">B</text>
+        <text class="divider">\</text>
+        <text catchtouchend="italic">I</text>
+        <text class="divider">\</text>
+        <text catchtouchend="underline">U</text>
+        <text class="divider">\</text>
+        <text catchtouchend="h1">H1</text>
+        <text class="divider">\</text>
+        <text catchtouchend="h2">H2</text>
+        <text class="divider">\</text>
+        <text catchtouchend="h3">H3</text>
+        <text class="divider">\</text>
+        <text catchtouchend="undo">←</text>
+        <text class="divider">\</text>
+        <text catchtouchend="redo">→</text>
+        <text class="divider">\</text>
+        <text catchtouchend="clearFormat">X</text>
+    </view>
+    <view catchtouchend="save" class="save">保存</view>
+</view>
